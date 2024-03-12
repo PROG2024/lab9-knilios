@@ -3,7 +3,6 @@ import math
 
 
 class Circle:
-
     def __init__(self, radius):
         """Initialize a circle with given radius.
         
@@ -49,7 +48,3 @@ class Circle:
         return f"Circle({self.radius})"
     
     __repr__ = __str__
-
-if __name__ == "__main__":
-    import doctest
-    doctest.testmod()
